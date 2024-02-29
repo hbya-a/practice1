@@ -1,7 +1,9 @@
 #include <iostream>
+#include <locale>
 using namespace std;
 
 int main() {
+  setlocale(LC_ALL, "Ukrainian");
   int a, b, op;
   double result;
 
